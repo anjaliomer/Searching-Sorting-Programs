@@ -4,19 +4,7 @@
 
 int missing_number(int ar[], int size)
 {
-	int current = 0;
-	int next = 1;
-
-	while (next <= (size - 1))
-	{
-		if (ar[next] - ar[current] == 1)
-		{
-			current = current + 1;
-			next = next + 1;
-		}
-		else
-		{
-			return(ar[current] + 1);
-		}
-	}
+	for (int i = 1; i < size;i++)
+		if ((ar[i] - ar[i - 1]) != 1)
+			return(ar[i] - 1);
 }
