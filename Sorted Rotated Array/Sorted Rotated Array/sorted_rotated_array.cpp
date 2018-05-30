@@ -26,12 +26,8 @@ int sorted_rotated_array(int ar[], int size, int num)
 int find_pivot(int ar[], int size)
 {
 	for (int i = 1; i < size; i++)
-	{
 		if ((ar[i] - ar[i - 1]) < 0)
-		{
 			return (i - 1);
-		}
-	}
 }
 
 int binary_search(int ar[], int first, int last, int num)
