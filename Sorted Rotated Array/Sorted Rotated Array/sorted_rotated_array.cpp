@@ -27,8 +27,7 @@ int find_pivot(int ar[], int size)
 {
 	for (int i = 1; i < size; i++)
 	{
-		int diff = ar[i] - ar[i - 1];
-		if (diff < 0)
+		if ((ar[i] - ar[i - 1]) < 0)
 		{
 			return (i - 1);
 		}
