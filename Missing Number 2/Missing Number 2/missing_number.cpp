@@ -4,9 +4,9 @@
 
 int missing_number(int ar[], int size)
 {
-	int sum = (size*(size + 1)) / 2;
+	int sum = ((size + 1)*(size + 2)) / 2;
 
-	for (int i = 0; i<(size - 1);i++)
+	for (int i = 0; i<size; i++)
 	{
 		sum = sum - ar[i];
 	}
