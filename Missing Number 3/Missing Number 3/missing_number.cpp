@@ -5,17 +5,17 @@ int missing_number(int ar[], int size)
 {
 	int x1 = ar[0];
 
-	for (int i = 1; i<(size - 1);i++)
+	for (int i = 1; i < size ;i++)
 	{
 		x1 = x1 ^ ar[i];
 	}
 
 	int x2 = 1;
 
-	for (int i = 2; i <= size; i++)
+	for (int i = 2; i <= (size+1) ; i++)
 	{
 		x2 = x2 ^ i;
 	}
 
-	return x1 ^ x2;
+	return (x1 ^ x2);
 }
