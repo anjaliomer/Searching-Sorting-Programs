@@ -21,7 +21,7 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="median_equal_sorted_array.h">
+    <ClInclude Include="median_equal_sorted_arrays.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -29,10 +29,10 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="median_equal_sorted_array_main.cpp">
+    <ClCompile Include="median_equal_sorted_arrays.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="median_equal_sorted_array.cpp">
+    <ClCompile Include="median_equal_sorted_arrays_main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

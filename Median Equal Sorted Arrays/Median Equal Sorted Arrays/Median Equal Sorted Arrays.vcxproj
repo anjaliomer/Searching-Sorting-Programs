@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{0DCCBFAE-E93F-489B-A3AE-573F9830E9C8}</ProjectGuid>
+    <ProjectGuid>{B1947BB4-20BC-4B0C-A72C-B4B557FB698A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>MedianEqualSortedArray</RootNamespace>
+    <RootNamespace>MedianEqualSortedArrays</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -147,13 +147,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="median_equal_sorted_array.h" />
+    <ClInclude Include="median_equal_sorted_arrays.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="median_equal_sorted_array.cpp" />
-    <ClCompile Include="median_equal_sorted_array_main.cpp" />
+    <ClCompile Include="median_equal_sorted_arrays_main.cpp" />
+    <ClCompile Include="median_equal_sorted_arrays.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
